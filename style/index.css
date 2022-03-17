@@ -1,0 +1,38 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.primary-button:hover {
+  color: #fff;
+  background-color: #084298;
+  border-color: #084298;
+}
+
+.primary-button {
+  color: #084298;
+  border: 2px solid #084298;
+}
+
+/* about title */
+.about-title {
+  position: relative;
+  margin-bottom: var(--mb-4);
+}
+.about-title::after {
+  position: absolute;
+  content: "";
+  width: 64px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: #084298;
+}
+
+@media screen and (min-width: 768px) {
+  .about-title::after {
+    width: 80px;
+    top: 2.5rem;
+  }
+}
