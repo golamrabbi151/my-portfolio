@@ -36,3 +36,14 @@ body {
     top: 2.5rem;
   }
 }
+
+.about-section p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.my-skills-tab{
+  width: 234px;
+  margin-left: auto;
+  margin-right: auto;
+}
